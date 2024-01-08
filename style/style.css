@@ -356,7 +356,8 @@ hr.second-line{
     margin-right: 265px;
     color: #FFF;
     border-radius: 8px;
-    background: #F00;   
+    background: #F00; 
+    border: none;  
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
