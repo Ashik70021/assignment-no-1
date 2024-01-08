@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+
+/* Banner Section CSS */
+.banner {
+    position: relative;
+    text-align: center;   
+  }
+.banner-background{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    filter: brightness(50%); 
+}
+
+.banner-content{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bg-text-1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+.bg-text-2{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;   
+}
+
+/* Main section */
+
+/* Happy new year section CSS */
+.categories{
+    text-align: center;
+    font-family: Inter;
+}
+.title{
+    margin-top: 120px;
+    color: #F00;
+    font-size: 88px;  
+    font-weight: 700;
+}
+.description{
+    margin-top: 48px;
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.mini-title{
+    margin-top: 16px;
+    color: #070211;
+    font-size: 48px; 
+    font-weight: 700;
+
+}
+
+.new-year-photo{
+    display: block; 
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Welcome to midnight party section CSS */
+
+.welcome-background{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    
+    width: 1320px;
+    height: 600px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.welcome-content{
+    
+    padding-top: 126px;
+    padding-left: 126px;
+    font-family: Merriweather;
+    font-weight: 500px;
+}
+.welcome-text{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+}
+.welcome-message{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-top: 25px;
+}
+.button-primary{
+    margin-top: 70px;
+    margin-left: 30px;
+    border-radius: 5px;
+    color: #FFF;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+/* Announcment Section */
+.announcement{
+    width: 1320px;
+    height: 482px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.notice{
+    text-align: center;
+    padding-top: 100px;
+    padding-left: auto;
+    padding-right: auto;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+#notice-title{
+    color: #F00;
+}
+.announcement-button{
+    margin-top: 70px;
+    margin-left: 600px;
+    color: #FFF;
+    border-radius: 8px;
+    background: #F00;   
+    border: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+/* Our Awesome Portfolio Section CSS */
+
+.portfolio{
+    width: 1320px;
+    height: 1180px;s
+    border-radius: 10px;
+    background: #FFF;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+.portfolio-content{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.portfolio-heading{
+    margin-top: 16px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.portfolio-message{
+    margin-top: 22px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.portfolio-item-1{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-item-2{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Subscribe Section */
+.subscribe{
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.email-icon{
+    display: flex;
+    padding-top: 80px;
+    margin-left: 590px;
+    margin-right: auto;
+}
+
+.subscribe-title{
+    margin-top: 40px;
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.subscribe-message{
+    margin-top: 22px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.input-email{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.e-mail{
+    width: 648px;
+    height: 72px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    background: #FFF;
+}
+::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+    text-align: left;
+    padding-left: 30px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.button{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    background: #F00;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Footer Section CSS */
+
+.footer{
+    width: 1600px;
+    height: 600px;
+    background: #070211;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 140px;
+}
+.footer-address-info{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.footer-address{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-left: 140px;
+     
+}
+.footer-mobile{ 
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; 
+    text-align: right;
+    padding-right: 290px;
+}
+.footer-website{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; 
+    text-align: right;
+    padding-right: 275px;
+}
+hr.first-line{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.15) ;
+
+}
+hr.second-line{
+    margin-top: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.15) ;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+.social-links a{
+    margin-right: 25px;
+}
+
+.copy-and-unsubscribe{
+    display: flex;
+    justify-content:space-between;
+}
+.copyright-notice{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 140px;
+    padding-top: 100px;
+}
+.Unsubscribe-button{
+    margin-top: 90px;
+    margin-right: 265px;
+    color: #FFF;
+    border-radius: 8px;
+    background: #F00;   
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
