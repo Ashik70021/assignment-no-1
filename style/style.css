@@ -244,6 +244,68 @@ body {
     padding-top: 43px;
 }
 
+/* Holiday Sale Section CSS */
+.holiday-content{
+    
+    width: 1320px;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.holiday-title{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-heading{
+    padding-top: 16px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.holiday-red{
+    color: #F00;
+}
+.holiday-message{
+    font-weight: 500px;
+    padding-top: 28px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; 
+}
+/* Holiday Sale image Section CSS */
+
+.image-holiday{ 
+    padding-top: 100px;
+    width: 1320px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.surprise-box{
+    position: absolute;
+    width: 700px;
+    padding-top: 80px;
+    padding-right: 10000;
+}
+.girls-image{
+    padding-left: 890px;
+}
+.discount-image{
+    position: absolute;
+    padding-top: 70px;
+    padding-left: 720px;
+}
+
+
 /* Our Awesome Portfolio Section CSS */
 
 .portfolio{
