@@ -112,13 +112,19 @@ body {
     margin-top: 70px;
     margin-left: 30px;
     border-radius: 5px;
-    color: #FFF;
+    color: #FFF; 
     background: #FD6E0A;
     border: 0;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     padding: 15px 35px;
+    transition: 0.5s;
+}
+.button-primary:hover{
+    background-color: white;
+    border: 0 solid;
+    color: red;
 }
 
 /* Announcment Section */
@@ -156,6 +162,12 @@ body {
     font-style: normal;
     font-weight: 700;
     padding: 15px 35px;
+    transition: 0.5s;
+}
+.announcement-button:hover{
+    background-color: white;
+    border: 1px solid;
+    color: red;
 }
 
 /* Our Awesome Portfolio Section CSS */
@@ -198,6 +210,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 .portfolio-item-2{
     margin-top: 25px;
     display: flex;
@@ -275,6 +288,12 @@ body {
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: white;
+    border: 1px solid;
+    color: red;
 }
 
 /* Footer Section CSS */
@@ -361,4 +380,10 @@ hr.second-line{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    transition: 0.5s;
+}
+.Unsubscribe-button:hover{
+    background-color: white;
+    border: 0 solid;
+    color: red;
 }
