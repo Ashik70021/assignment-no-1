@@ -79,13 +79,21 @@ body {
 /* Welcome to midnight party section CSS */
 
 .welcome-background{
+    display: flex;
+    justify-content: space-between;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
-    
     width: 1320px;
     height: 600px;
     margin-top: 120px;
     margin-left: auto;
     margin-right: auto;
+}
+.welcome-image{
+    padding-top: 68px;
+    padding-right: 138px;
+
+    background-blend-mode: multiply;
+    
 }
 .welcome-content{
     
